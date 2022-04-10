@@ -1,22 +1,66 @@
-html{
-    background: rgb(0, 51, 255);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Russo One','Kanit', sans-serif;
 }
-.Logo{
-    align-self: center;
-    display: flex;
+#Logo{
     width: 420px;
     height: 420px;
-    flex: 1 1 100px;
-    flex-direction: column;
+    display: grid;
+    grid-column: 2;
+    float: center;
+    justify-self: center;
+    margin-top: -160px;
+    padding-right: 150px;
+
 }
 .headline{
-    background: black;
+    background-color: black;
+    font-family: 'Righteous','Kanit', sans-serif;
+    font-size: 69px;
+    padding-left: 5px;
+
+    color: white;
+}
+.sectionBlue{
+    background-color: rgba(0, 101, 255) ;
+    font-family: 'Russo One','Kanit', sans-serif;
+    color: black;
+    display: grid;
+}
+.sectionOrange{
+    background-color: rgb(255, 93, 0);
+    opacity: 1;
     display: flex;
     align-items: center;
-    font-family: sans-serif;
+    font-family: 'Russo One','Kanit', sans-serif;
     font-size: large;
     color: white;
-    flex: 1 1;
+    flex: 1 1 100px;
     flex-direction: column;
     flex-wrap: wrap;
 }
+.Uptop{
+    background-image: url("../Images/Circuit-BG.jpg");
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 1;
+    font-family: 'Russo One','Kanit', sans-serif;
+    font-size: 42px;
+    padding-top: 40px;
+    padding-left: 100px;
+    margin: 0px;
+    color: black;
+    float: left;
+
+}
+span{
+    color: rgb(0,101,225);
+    font-family: 'Righteous','Kanit', sans-serif;
+    font-size: 69px;
+    padding-left: 3px;
+}
+
