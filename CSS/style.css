@@ -11,10 +11,9 @@
     float: center;
     justify-self: center;
     margin-top: -160px;
-    padding-right: 150px;
-
+    
 }
-#logo{
+#Topiclogo{
     width: 100px;
     height: 100px;
     display: flex;
@@ -23,58 +22,13 @@
 #face{
     display: grid;
     grid-column: 1;
-    width: 420px;
-    height: 420px;
-    padding: 20px;
-
-}
-.headup{
-    background-color: black;
-    font-family: 'Righteous','Kanit', sans-serif;
-    font-size: 69px;
-    padding-left: 5px;
-
-    color: white;
-}
-.headline{
-    background-color: black;
-    font-family: 'Righteous','Kanit', sans-serif;
-    font-size: 69px;
-    display: flex ;
-    align-self: center;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    padding-left: 70px;
     justify-content: center;
-    float: center;
-    padding-left: 5px;
-
-    color: white;
+    align-self: center;
 }
-.MyName{
-    display: grid;
-    grid-column: 2;
-    justify-content: space-around;
-    align-items: center;
-}
-.MyInfo{
-    display: grid;
-    grid-column: 3;
-}
-.sectionBlue{
-    background-color: rgba(0, 101, 255) ;
-    font-family: 'Russo One','Kanit', sans-serif;
-    color: black;
-    display: grid;
-}
-.sectionOrange{
-    background-color: rgb(255, 93, 0);
-    opacity: 1;
-    display: grid;
-    grid-template-columns: 30% 45% 30%;
-    align-items: center;
-    font-family: 'Russo One','Kanit', sans-serif;
-    font-size: 22px;
-    color: white;
-}
-
 .Uptop{
     background-image: url("../Images/Circuit-BG.jpg");
     width: 100%;
@@ -91,15 +45,105 @@
     margin: 0px;
     color: black;
     float: left;
-
+    
+    }
+.headup{
+    background-color: black;
+    font-family: 'Righteous','Kanit', sans-serif;
+    font-size: 69px;
+    color: white;
 }
+.headline{
+    background-color: black;
+    font-family: 'Righteous','Kanit', sans-serif;
+    font-size: 69px;
+    display: flex ;
+    align-self: center;
+    justify-content: center;
+    float: center;
+    padding-left: 5px;
+
+    color: white;
+}
+.headsmall{
+    background-color: black;
+    font-family: 'Righteous','Kanit', sans-serif;
+    font-size: 35px;
+    display: flex ;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    color: white;
+}
+.sectionOrange{
+    background-color: rgb(255, 93, 0);
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+    font-family: 'Russo One','Kanit', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+.MyName{
+    display: grid;
+    grid-column: 2;
+    justify-content: space-around;
+    align-items: center;
+}
+.MyInfo{
+    display: grid;
+    grid-column: 3;
+}
+.skill{
+    display: grid;
+    grid-column: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+.SkillLogo{
+    width: auto;
+    height: 80px;
+    display: grid;
+    grid-column: 2;
+
+    justify-items: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.contact{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+}
+.sectionBlue{
+    background-color: rgba(0, 101, 255) ;
+    font-family: 'Russo One','Kanit', sans-serif;
+    color: black;
+    display: grid;
+}
+
 span{
     color: rgb(0,101,225);
     font-family: 'Righteous','Kanit', sans-serif;
     font-size: 69px;
     padding-left: 3px;
 }
+.bluesmall{
+    color: rgb(0,101,225);
+    font-size:20px;
+}
 .black{
     color: rgb(0, 0, 0);
 }
+.blacksmall{
+    color: rgb(0, 0, 0);
+    font-family: 'Russo One','Kanit', sans-serif;
+    font-size: 22px;
+}
+
 
