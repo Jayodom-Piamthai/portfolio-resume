@@ -101,19 +101,26 @@
 .skill{
     display: grid;
     grid-column: 1;
+    grid-row: 2;
     padding-left: 10px;
     padding-right: 10px;
-    align-items: center;
 }
 .SkillLogo{
     width: auto;
-    height: 80px;
+    height: 8px;
     display: grid;
     grid-column: 2;
+    grid-row: 2;
 
     justify-items: space-around;
     align-items: center;
     padding: 10px;
+}
+img{
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
 }
 .contact{
     display: grid;
