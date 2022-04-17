@@ -63,6 +63,7 @@
     background-color: black;
     font-family: 'Righteous','Kanit', sans-serif;
     font-size: 69px;
+    border: 0cm;
     display: flex ;
     align-self: center;
     justify-content: center;
@@ -77,11 +78,12 @@
     font-size: 35px;
     display: flex ;
     align-self: center;
+    justify-content: center;
     border: none;
     border-radius: 10px;
     margin: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     
     color: white;
 }
@@ -122,7 +124,7 @@
 }
 .SkillLogo{
     width: auto;
-    height: 8px;
+    height: 250px;
     display: flex;
     justify-items: space-around;
     align-items: center;
@@ -143,14 +145,65 @@ img{
 .sectionBlue{
     background-color: rgba(0, 101, 255) ;
     font-family: 'Russo One','Kanit', sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
-    flex-direction: column;
-}
-.education{
-    width: 100px;
-    height: 100px;
+    align-content: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
     
+    padding-top: 20px;
+}
+#education{
+    display: grid;
+    grid-row: 1;
+    justify-items: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#education2{
+    display: grid;
+    grid-row: 2;
+    justify-items: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+#education3{
+    display: grid;
+    grid-row: 3;
+    justify-items: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.sectionBlue2{
+    background-color: rgba(0, 101, 255) ;
+    font-family: 'Russo One','Kanit', sans-serif;
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    padding-top: 20px;
+}
+.certcopy{
+    height: 200px;
+    width: auto;
+}
+.certificate{
+    height: 100px;
+    width: auto;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    justify-content: baseline;
+    align-items: center;
 }
 span{
     color: rgb(0,101,225);
@@ -160,7 +213,9 @@ span{
 }
 .bluesmall{
     color: rgb(0,101,225);
-    font-size:20px;
+    font-size:25px;
+    justify-content: center;
+    align-self: center;
 }
 .black{
     color: rgb(0, 0, 0);
@@ -181,6 +236,14 @@ span{
     justify-items: space-around;
     margin: 0;
 }
-
+#greenDownload{
+    background-color: #04AA6D;
+    border-radius: 5px;
+    border-color: #04AA6D;
+    padding: 4px 8px;
+    font-size: 17px;
+    font-family: 'Russo One','Kanit', sans-serif;
+    color: white;
+}
 
 
