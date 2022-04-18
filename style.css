@@ -39,9 +39,8 @@
     background-image: url("Images/Circuit-BG.png");
     width: 100%;
     display: grid;
-    grid-template-columns: 50% 30%;
     grid-column: 1;
-    grid-row: 3;
+    grid-template-columns: 51% 30%;
     opacity: 1;
     font-family: 'Russo One','Kanit', sans-serif;
     font-size: 42px;
@@ -57,6 +56,7 @@
     background-color: black;
     font-family: 'Righteous','Kanit', sans-serif;
     font-size: 69px;
+    padding-left:10px ;
     color: white;
 }
 .headline{
@@ -193,8 +193,10 @@ img{
     padding-top: 20px;
 }
 .certcopy{
-    height: 200px;
+    height: 169px;
     width: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 .certificate{
     height: 100px;
@@ -204,6 +206,59 @@ img{
     padding-bottom: 100px;
     justify-content: baseline;
     align-items: center;
+}
+.sectionWork{
+    background-color: rgb(241,0,71);
+    display: grid;
+    grid-template-columns:30% 35%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One','Kanit', sans-serif;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+.sectionWork2{
+    background-color: rgb(241,0,71);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One','Kanit', sans-serif;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+.gitlogo{
+    height: 420px;
+    width: auto;
+    display: grid;
+    grid-column: 2;
+    margin-top:-42px ;
+    margin-bottom:-42px ;
+    justify-content: space-around;
+    align-items: center;
+}
+.gitdirect{
+    display: grid;
+    grid-column: 1;
+    
+    align-items: center;
+}
+.work{
+    height: 420px;
+    width: auto;
+    display: grid;
+    border: #000000 ;
+    border-radius: 50px;
+
+    grid-column: 1;
+}
+.desc{
+    display: grid;
+    grid-column: 2;
+    font-size: 15px;
+    align-self: center;
+    justify-self: center;
 }
 span{
     color: rgb(0,101,225);
@@ -220,9 +275,16 @@ span{
 .black{
     color: rgb(0, 0, 0);
     font-size: 69;
+    align-content: center;
+    justify-content: center;
 }
 .blacksmall{
     color: rgb(0, 0, 0);
+    font-family: 'Russo One','Kanit', sans-serif;
+    font-size: 22px;
+}
+#note{
+    color: rgb(103, 103, 103);
     font-family: 'Russo One','Kanit', sans-serif;
     font-size: 22px;
 }
@@ -246,5 +308,14 @@ span{
     color: white;
     text-decoration: none;
 }
-
+#blackRedirect{
+    background-color: #000000;
+    border-radius: 5px;
+    border-color: #000000;
+    padding: 4px 8px;
+    font-size: 30px;
+    font-family: 'Russo One','Kanit', sans-serif;
+    color: white;
+}
+    
 
