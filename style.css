@@ -36,7 +36,7 @@
     align-self: center;
 }
 .Uptop{
-    background-image: url("../Images/Circuit-BG.jpg");
+    background-image: url("Images/Circuit-BG.png");
     width: 100%;
     display: grid;
     grid-template-columns: 50% 30%;
