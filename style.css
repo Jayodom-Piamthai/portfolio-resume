@@ -5,23 +5,22 @@
 }
 #HeadLogo{
     width: 420px;
-    height: 420px;
+    height: auto;
     display: grid;
     grid-column: 2;
     float: center;
     justify-self: center;
-    margin-top: -160px;
     
 }
 #Topiclogo{
     width: 100px;
-    height: 100px;
+    height: auto;
     display: flex;
     float: center;
 }
 #sidelogo{
     width: 30px;
-    height: 30px;
+    height: auto;
     display: flex ;
     justify-content: space-around;
 }
@@ -29,7 +28,7 @@
     display: grid;
     grid-column: 1;
     width: 300px;
-    height: 300px;
+    height: auto;
     padding: 10px;
     padding-left: 70px;
     justify-content: center;
@@ -39,9 +38,7 @@
     background-image: url("Images/Circuit-BG.png");
     width: 100%;
     display: grid;
-    grid-column: 1;
     grid-template-columns: 51% 30%;
-    opacity: 1;
     font-family: 'Russo One','Kanit', sans-serif;
     font-size: 42px;
     padding-top: 40px;
@@ -52,6 +49,13 @@
     float: left;
     
     }
+.header{
+    display: grid;
+    grid: 1;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 .headup{
     background-color: black;
     font-family: 'Righteous','Kanit', sans-serif;
@@ -92,6 +96,7 @@
     display: grid;
     grid-template-columns: 25% 50% 25%;
     align-items: center;
+    justify-self: center;
     font-family: 'Russo One','Kanit', sans-serif;
     font-size: 22px;
     color: white;
@@ -107,11 +112,13 @@
 .MyName{
     display: grid;
     grid-column: 2;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 .MyInfo{
     display: grid;
+    flex-wrap: wrap;
     grid-column: 3;
     margin-top: -30px;
 }
@@ -123,11 +130,14 @@
     padding-right: 10px;
 }
 .SkillLogo{
-    width: auto;
-    height: 250px;
+    width: 69px;
+    height: auto;
     display: flex;
-    justify-items: space-around;
-    align-items: center;
+    flex-direction: row;
+    justify-content: baseline;
+    flex-shrink: initial;
+    flex-grow:initial;
+    align-self: center;
 }
 img{
     width: auto;
@@ -193,24 +203,21 @@ img{
     padding-top: 20px;
 }
 .certcopy{
-    height: 169px;
-    width: auto;
+    width: 169px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
 }
 .certificate{
-    height: 100px;
-    width: auto;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 500px;
     justify-content: baseline;
     align-items: center;
 }
 .sectionWork{
     background-color: rgb(241,0,71);
     display: grid;
-    grid-template-columns:30% 35%;
+    grid-template-columns:40% 30%;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -245,8 +252,8 @@ img{
     align-items: center;
 }
 .work{
-    height: 420px;
-    width: auto;
+    height: auto;
+    width: 420px;
     display: grid;
     border: #000000 ;
     border-radius: 50px;
