@@ -94,7 +94,6 @@
 .sectionOrange{
     background-color: rgb(255, 93, 0);
     display: grid;
-    grid-template-columns: 25% 50% 25%;
     align-items: center;
     justify-self: center;
     font-family: 'Russo One','Kanit', sans-serif;
@@ -104,7 +103,6 @@
 #smallOrange{
     background-color: rgb(255, 93, 0);
     display: flex;
-    grid-template-columns: 13% 87%;
     align-items: center;
     font-size: 20px;
     color: white;
@@ -112,7 +110,7 @@
 .MyName{
     display: grid;
     grid-column: 2;
-    flex-wrap: wrap;
+    padding: 10px;
     justify-content: space-around;
     align-items: center;
 }
@@ -120,7 +118,7 @@
     display: grid;
     flex-wrap: wrap;
     grid-column: 3;
-    margin-top: -30px;
+    padding: 10px;
 }
 .skill{
     display: grid;
@@ -130,8 +128,8 @@
     padding-right: 10px;
 }
 .SkillLogo{
-    width: 69px;
-    height: auto;
+    height: 69px;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: baseline;
@@ -217,9 +215,7 @@ img{
 .sectionWork{
     background-color: rgb(241,0,71);
     display: grid;
-    grid-template-columns:40% 30%;
-    align-content: center;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     font-family: 'Russo One','Kanit', sans-serif;
     font-size: 22px;
