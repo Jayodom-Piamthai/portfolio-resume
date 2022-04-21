@@ -215,6 +215,7 @@ img{
 .sectionWork{
     background-color: rgb(241,0,71);
     display: grid;
+    padding: 30px;
     text-align: center;
     align-items: center;
     font-family: 'Russo One','Kanit', sans-serif;
