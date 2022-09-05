@@ -19,7 +19,6 @@ a {
     font-family: 'Raleway', sans-serif;
     font-size: 10px;
     display: flex;  
-    flex-wrap: wrap;
     flex-direction: row;
     flex-shrink: 3;
     justify-content: space-around;
@@ -30,22 +29,31 @@ a {
     display: flex;
     flex-direction: row;
     height: 100px;
-    height: 10vw;
+    height: 10vh;
     width: 100px;
-    width: 10vw;
+    width: 10vh;
     background: black;
+}
+#CrownAce{
+    color: white;
+    font-size: 2.5vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-items: center ;
 }
 #CrownSubPage{
     color: white;
-    font-size: 20px;
-    font-size: 2vw;
+    font-size: 15px;
     font-weight: bold;
     text-decoration: none;
     display: flex;
     padding-left: 1vw;
     padding-right: 1vw;
-    padding-bottom: 0.5vw;
     align-items: center;
+    justify-items: center ;
     overflow: hidden;
 }
 /*top front head banner*/
@@ -85,6 +93,7 @@ a {
     font-size: 20px;
     font-weight: bolder;
     display: flex;
+    flex-wrap: wrap;
     flex-shrink: 3;
     flex-shrink: inherit;
     flex-direction: column;
@@ -96,6 +105,27 @@ a {
     font-size: 4.5vw;
     font-weight: bolder;
     display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+.offer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Service{
+    font-size: 20px;
+    border: 0.5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(122, 122, 122);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
 }
 .Contact{
     background-color: black;
