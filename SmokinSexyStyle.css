@@ -1,4 +1,5 @@
 /*let's make it one HELLUVA site,Ace!*/
+/*Ace's Red rgb(241,0,71)*/
 *{
     font-family: 'Raleway', sans-serif;
     margin: 0px;
@@ -50,8 +51,8 @@ a {
     font-weight: bold;
     text-decoration: none;
     display: flex;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
     align-items: center;
     justify-items: center ;
     overflow: hidden;
@@ -112,11 +113,14 @@ a {
 }
 .offer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
-#Service{
-    font-size: 20px;
+#ServiceSub{
+    width: 300px;
+    height: 200px;
+    font-size: 15px;
     border: 0.5px;
     border-style: solid;
     border-radius: 10px;
