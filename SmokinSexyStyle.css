@@ -56,30 +56,34 @@ a {
     align-items: center;
     justify-items: center ;
     overflow: hidden;
+    transition: 1s;
+}
+#CrownSubPage:hover{
+    color: #0065ff;
 }
 /*top front head banner*/
 .headBanner{
     background-image:url("Images/Circuit-BG.png");
     background-attachment: fixed;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    justify-content:space-evenly;
     align-items: center;
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 7vw;
+    padding-right: 7vw;
 }
 #headLogo{
+    grid-column: 1;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 300px;
-    height: 30vw;
+    height: 25vw;
     width: 300px;
-    width: 30vw;
+    width: 25vw;
     padding-top: -10vw;
 }
 #headText{
+    grid-column: 2;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -103,7 +107,7 @@ a {
     align-items: center;
 }
 #header{
-    font-size: 4.5vw;
+    font-size: 25px;
     font-weight: bolder;
     display: flex;
     padding-top: 5px;
