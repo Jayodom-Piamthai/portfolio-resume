@@ -18,21 +18,23 @@ a {
     background-color: black;
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 10px;
+    font-size: 1vw;
     display: flex;  
     flex-direction: row;
     flex-shrink: 3;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     justify-content: space-around;
     align-items: center;
-    padding: 8px;
+    padding: 0.5vw;
 }
 #CrownLogo{
     display: flex;
     flex-direction: row;
-    height: 100px;
-    height: 10vh;
-    width: 100px;
-    width: 10vh;
+    height: 8vh;
+    width: 8vh;
     background: black;
 }
 #CrownAce{
@@ -64,10 +66,11 @@ a {
 /*top front head banner*/
 .headBanner{
     background-image:url("Images/Circuit-BG.png");
-    background-attachment: fixed;
+    background-attachment:fixed;
     display: grid;
     justify-content:space-evenly;
     align-items: center;
+    padding-top: 10vh;
     padding-left: 7vw;
     padding-right: 7vw;
 }
@@ -80,7 +83,6 @@ a {
     height: 25vw;
     width: 300px;
     width: 25vw;
-    padding-top: -10vw;
 }
 #headText{
     grid-column: 2;
@@ -122,9 +124,9 @@ a {
     align-items: center;
 }
 #ServiceSub{
-    width: 300px;
-    height: 200px;
-    font-size: 15px;
+    width: 30vw;
+    height: 20vw;
+    font-size: 1.5vw;
     border: 0.5px;
     border-style: solid;
     border-radius: 10px;
